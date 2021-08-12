@@ -1,0 +1,15 @@
+[
+    {
+        "Id": 1,
+        "Nombre_usuario": "Juan Perez",
+        "Fecha": "10-08-2021",
+        "Texto": "El charm honguito es maravilloso, excelente calidad!"
+
+    },
+    {
+        "Id": 2,
+        "Nombre_usuario": "Maria Huganda",
+        "Fecha": "4-05-2021",
+        "Texto": "Es precioso y me llegó súper rápido."
+    }
+]

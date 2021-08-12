@@ -1,0 +1,22 @@
+[
+    {
+        "Id": 1,
+        "Cantidad_productos": 1,
+        "Precio_Total": 3500,
+        "Direccion": "Av.Siempreviva 742",
+        "Medio_pago": "e-Brou",
+        "Envio_standar": true,
+        "Envio_express": false
+
+    },
+    {
+        "Id": 2,
+        "Cantidad_productos": 3,
+        "Precio_Total": 5200,
+        "Direccion": "Soriano 888",
+        "Medio_pago": "PayPal",
+        "Envio_standar": false,
+        "Envio_express": true
+
+    }
+]

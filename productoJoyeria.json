@@ -1,0 +1,26 @@
+[
+    {
+        "Id": "123",
+        "Nombre": "Reloj",
+        "Precio": 3500,
+        "Descripcion": "Hermoso reloj de plata.",
+        "Cantidad_disponible": 20,
+        "Imagen": "img/reloj.jpg"
+    },
+    {
+        "Id": "121",
+        "Nombre": "Pulsera rigida",
+        "Precio": 1200,
+        "Descripcion": "Pulsera semi redonda, ajustable.",
+        "Cantidad_disponible": 5,
+        "Imagen": "img/pulsera.jpg"
+    },
+    {
+        "Id": "124",
+        "Nombre": "Charm Honguito",
+        "Precio": 500,
+        "Descripcion": "Tierno y bonito, ideal para tu pulsera.",
+        "Cantidad_disponible": 5,
+        "Imagen": "img/charm.jpg"
+    }
+]
