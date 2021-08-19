@@ -1,21 +1,13 @@
 //URLS PARA CARGAR DATOS JSON
-const CATEGORIAS_URL = 
-const COMENTARIOS_URL = 
-const CARRITO_URL = 
-const PRODUCTOS_URL = 
-const USUARIOS_URL = 
+const CATEGORIAS_URL = "https://aymaramelo.github.io/api-alternativo/json/categoria.json";
+const COMENTARIOS_URL = "https://aymaramelo.github.io/api-alternativo/json/comentario.json";
+const CARRITO_URL = "https://aymaramelo.github.io/api-alternativo/json/carritoCompra.json";
+const PRODUCTOS_URL = "https://aymaramelo.github.io/api-alternativo/json/productoJoyeria.json";
+const USUARIOS_URL = "https://aymaramelo.github.io/api-alternativo/json/usuario.json";
 
-var showSpinner = function(){
-    document.getElementById("spinner-wrapper").style.display = "block";
-  }
-  
-  var hideSpinner = function(){
-    document.getElementById("spinner-wrapper").style.display = "none";
-  }
   
   var getJSONData = function(url){
       var result = {};
-      showSpinner();
       return fetch(url)
       .then(response => {
         if (response.ok) {
@@ -27,13 +19,11 @@ var showSpinner = function(){
       .then(function(response) {
             result.status = 'ok';
             result.data = response;
-            hideSpinner();
             return result;
       })
       .catch(function(error) {
           result.status = 'error';
           result.data = error;
-          hideSpinner();
           return result;
       });
   }
